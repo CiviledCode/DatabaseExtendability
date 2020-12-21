@@ -37,7 +37,6 @@ public class DatabaseConnection {
                 }
                 statement.close();
             }
-            return null;
         } catch (Exception e) {
             e.printStackTrace();
         }
